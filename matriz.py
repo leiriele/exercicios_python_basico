@@ -1,7 +1,6 @@
 #Programa multiplicação de duas matriz 3X3
-#Crie um programa que declare uma matriz de dimensão 3x3 e preencha com valores lidos pelo teclado. 
-#No final, mostre a matriz na tela, com a formatação correta.
-#Apresente o resultado da multiplicação entre as duas matrizes
+#Crie um programa que declare 2 matrizes de dimensão 3x3 e preencha com valores lidos pelo teclado. 
+#No final, mostre a matriz na tela e apresente o resultado da multiplicação entre as duas matrizes
 matriz = [[],[],[]]
 matriz2 = [[],[],[]]
 for l in range(0,3):
