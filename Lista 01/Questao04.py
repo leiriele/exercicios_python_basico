@@ -1,14 +1,14 @@
-# Questao 04
-# A nota final de um estudante é calculada a partir de três notas atribuídas, respectivamente, a um trabalho de laboratório, a uma avaliação semestral e a um exame final.
-# A média das três notas mencionadas obedece aos pesos a seguir:
-# trab1 = peso 2 | trab2 = peso 3 | trab3 = peso 5
-# receba as três notas, calcule e mostre a média ponderada e o conceito eu segue a tabela
-# Média ponderada | Conceito
-# 8,01 → 10,0| A
-# 7,01 → 8,0 | B
-# 6,01 → 7,0 | C
-# 5,01 → 6,0 | D
-# 0,00 → 5,0 | E
+''' Questao 04
+A nota final de um estudante é calculada a partir de três notas atribuídas, respectivamente, a um trabalho de laboratório, a uma avaliação semestral e a um exame final.
+A média das três notas mencionadas obedece aos pesos a seguir:
+trab1 = peso 2 | trab2 = peso 3 | trab3 = peso 5
+receba as três notas, calcule e mostre a média ponderada e o conceito eu segue a tabela
+Média ponderada | Conceito
+8,01 → 10,0| A
+7,01 → 8,0 | B
+6,01 → 7,0 | C
+5,01 → 6,0 | D
+0,00 → 5,0 | E '''
 # Receber as notas do aluno
 nota1 = float(input("Digite a primeira nota: "))
 nota2 = float(input("Digite a segunda nota: "))

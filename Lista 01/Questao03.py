@@ -1,7 +1,8 @@
-# Questao 03
-# receba três números obrigatoriamente em ordem crescente e um quarto numero que não siga essa regra.
-# Mostre, em seguida, os quatro números em ordem decrescente.
-# Suponha que o usuário digitará quatro números diferentes.
+''' Questao 03
+ receba três números obrigatoriamente em ordem crescente e um quarto numero que não siga essa regra.
+ Mostre, em seguida, os quatro números em ordem decrescente.
+ Suponha que o usuário digitará quatro números diferentes. '''
+
 num1 = int(input("Digite o primeiro número: "))
 # Esse loop é para verficar se o segundo numero é maior que o primeiro, senao exibe msg de erro
 while True:

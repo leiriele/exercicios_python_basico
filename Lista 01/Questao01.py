@@ -1,5 +1,5 @@
-# Questao02
-# receba dois numeros inteiros e verifique qual o maior
+''' Questao02
+receba dois numeros inteiros e verifique qual o maior '''
 
 num1 = input("Digite o primeiro número:")
 num2 = input("Digite o segundo número:")

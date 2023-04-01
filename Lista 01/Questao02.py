@@ -1,5 +1,5 @@
-# Questao02
-# receba um numero inteiro e verifique se é par ou impar
+''' Questao02
+receba um numero inteiro e verifique se é par ou impar'''
 
 while True:
     num = int(input("Digite um número inteiro: "))
