@@ -14,7 +14,9 @@ def contador_palavras(ngram, folder_path):
           
             with open(file_path, 'r') as file:
                 text = file.read()
-                text = re.sub(r'[^\w\s]', '', text) #remove pontuação
+                for remove in ['.', ',', '"', "'", '?', '!', ':',
+                  ';', '(', ')', '[', ']', '{', '}']:
+                    text = text.replace(remove, "")
                 sequencia = text.split()
                 #aqui verifico se o número de palavras no texto é maior ou igual ao tamanho do n-gram 
                 if len(sequencia) >= ngram:
